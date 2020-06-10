@@ -1,0 +1,31 @@
+No.     Time           Source                Destination           Protocol Length Info
+    137 4.116090       192.168.1.1           192.168.1.127         DNS      102    Standard query response 0x67df A bitsy.mit.edu A 18.0.72.3
+
+Frame 137: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface en0, id 0
+Ethernet II, Src: Cisco-Li_4e:60:1e (c8:d7:19:4e:60:1e), Dst: Apple_2b:95:95 (f8:ff:c2:2b:95:95)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.127
+User Datagram Protocol, Src Port: 53, Dst Port: 51369
+Domain Name System (response)
+    Transaction ID: 0x67df
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        bitsy.mit.edu: type A, class IN
+            Name: bitsy.mit.edu
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        bitsy.mit.edu: type A, class IN, addr 18.0.72.3
+            Name: bitsy.mit.edu
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 1799 (29 minutes, 59 seconds)
+            Data length: 4
+            Address: 18.0.72.3
+    [Request In: 136]
+    [Time: 0.009831000 seconds]

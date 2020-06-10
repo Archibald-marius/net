@@ -1,0 +1,22 @@
+No.     Time           Source                Destination           Protocol Length Info
+     49 1.832254       192.168.1.127         192.168.1.1           DNS      71     Standard query 0xb024 A www.mit.edu
+
+Frame 49: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface en0, id 0
+Ethernet II, Src: Apple_2b:95:95 (f8:ff:c2:2b:95:95), Dst: Cisco-Li_4e:60:1e (c8:d7:19:4e:60:1e)
+Internet Protocol Version 4, Src: 192.168.1.127, Dst: 192.168.1.1
+User Datagram Protocol, Src Port: 58089, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0xb024
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.mit.edu: type A, class IN
+            Name: www.mit.edu
+            [Name Length: 11]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 50]

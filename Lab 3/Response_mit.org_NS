@@ -1,0 +1,158 @@
+No.     Time           Source                Destination           Protocol Length Info
+     42 4.055608       192.168.1.1           192.168.1.127         DNS      446    Standard query response 0x4df9 NS mit.edu NS asia2.akam.net NS use2.akam.net NS usw2.akam.net NS asia1.akam.net NS use5.akam.net NS ns1-173.akam.net NS ns1-37.akam.net NS eur5.akam.net A 23.74.25.64 A 96.7.49.64 A 2.16.40.64 A 184.26.161.64 A 95.100.175.64 A 95.101.36.64 A 193.108.91.37 A 193.108.91.173 AAAA 2600:1403:a::40 AAAA 2600:1401:2::25 AAAA 2600:1401:2::ad
+
+Frame 42: 446 bytes on wire (3568 bits), 446 bytes captured (3568 bits) on interface en0, id 0
+Ethernet II, Src: Cisco-Li_4e:60:1e (c8:d7:19:4e:60:1e), Dst: Apple_2b:95:95 (f8:ff:c2:2b:95:95)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.127
+User Datagram Protocol, Src Port: 53, Dst Port: 62880
+Domain Name System (response)
+    Transaction ID: 0x4df9
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 8
+    Authority RRs: 0
+    Additional RRs: 11
+    Queries
+        mit.edu: type NS, class IN
+            Name: mit.edu
+            [Name Length: 7]
+            [Label Count: 2]
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+    Answers
+        mit.edu: type NS, class IN, ns asia2.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 1800 (30 minutes)
+            Data length: 16
+            Name Server: asia2.akam.net
+        mit.edu: type NS, class IN, ns use2.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 1800 (30 minutes)
+            Data length: 7
+            Name Server: use2.akam.net
+        mit.edu: type NS, class IN, ns usw2.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 1800 (30 minutes)
+            Data length: 7
+            Name Server: usw2.akam.net
+        mit.edu: type NS, class IN, ns asia1.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 1800 (30 minutes)
+            Data length: 8
+            Name Server: asia1.akam.net
+        mit.edu: type NS, class IN, ns use5.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 1800 (30 minutes)
+            Data length: 7
+            Name Server: use5.akam.net
+        mit.edu: type NS, class IN, ns ns1-173.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 1800 (30 minutes)
+            Data length: 10
+            Name Server: ns1-173.akam.net
+        mit.edu: type NS, class IN, ns ns1-37.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 1800 (30 minutes)
+            Data length: 9
+            Name Server: ns1-37.akam.net
+        mit.edu: type NS, class IN, ns eur5.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 1800 (30 minutes)
+            Data length: 7
+            Name Server: eur5.akam.net
+    Additional records
+        eur5.akam.net: type A, class IN, addr 23.74.25.64
+            Name: eur5.akam.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 87286 (1 day, 14 minutes, 46 seconds)
+            Data length: 4
+            Address: 23.74.25.64
+        use2.akam.net: type A, class IN, addr 96.7.49.64
+            Name: use2.akam.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 24181 (6 hours, 43 minutes, 1 second)
+            Data length: 4
+            Address: 96.7.49.64
+        use5.akam.net: type A, class IN, addr 2.16.40.64
+            Name: use5.akam.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 87955 (1 day, 25 minutes, 55 seconds)
+            Data length: 4
+            Address: 2.16.40.64
+        usw2.akam.net: type A, class IN, addr 184.26.161.64
+            Name: usw2.akam.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 87440 (1 day, 17 minutes, 20 seconds)
+            Data length: 4
+            Address: 184.26.161.64
+        asia1.akam.net: type A, class IN, addr 95.100.175.64
+            Name: asia1.akam.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 20029 (5 hours, 33 minutes, 49 seconds)
+            Data length: 4
+            Address: 95.100.175.64
+        asia2.akam.net: type A, class IN, addr 95.101.36.64
+            Name: asia2.akam.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 24441 (6 hours, 47 minutes, 21 seconds)
+            Data length: 4
+            Address: 95.101.36.64
+        ns1-37.akam.net: type A, class IN, addr 193.108.91.37
+            Name: ns1-37.akam.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 159 (2 minutes, 39 seconds)
+            Data length: 4
+            Address: 193.108.91.37
+        ns1-173.akam.net: type A, class IN, addr 193.108.91.173
+            Name: ns1-173.akam.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 159 (2 minutes, 39 seconds)
+            Data length: 4
+            Address: 193.108.91.173
+        use5.akam.net: type AAAA, class IN, addr 2600:1403:a::40
+            Name: use5.akam.net
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+            Time to live: 87955 (1 day, 25 minutes, 55 seconds)
+            Data length: 16
+            AAAA Address: 2600:1403:a::40
+        ns1-37.akam.net: type AAAA, class IN, addr 2600:1401:2::25
+            Name: ns1-37.akam.net
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+            Time to live: 159 (2 minutes, 39 seconds)
+            Data length: 16
+            AAAA Address: 2600:1401:2::25
+        ns1-173.akam.net: type AAAA, class IN, addr 2600:1401:2::ad
+            Name: ns1-173.akam.net
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+            Time to live: 159 (2 minutes, 39 seconds)
+            Data length: 16
+            AAAA Address: 2600:1401:2::ad
+    [Request In: 40]
+    [Time: 0.032290000 seconds]
