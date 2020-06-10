@@ -1,0 +1,344 @@
+No.     Time           Source                Destination           Protocol Length Info
+     33 1.598741       192.168.0.165         128.119.245.12        HTTP     580    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1 
+
+Frame 33: 580 bytes on wire (4640 bits), 580 bytes captured (4640 bits) on interface en0, id 0
+Ethernet II, Src: Apple_2b:95:95 (f8:ff:c2:2b:95:95), Dst: TendaTec_4a:c7:70 (04:95:e6:4a:c7:70)
+Internet Protocol Version 4, Src: 192.168.0.165, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51112, Dst Port: 80, Seq: 1, Ack: 1, Len: 514
+    Source Port: 51112
+    Destination Port: 80
+    [Stream index: 5]
+    [TCP Segment Len: 514]
+    Sequence number: 1    (relative sequence number)
+    Sequence number (raw): 1258043732
+    [Next sequence number: 515    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Acknowledgment number (raw): 3647360839
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 2058
+    [Calculated window size: 131712]
+    [Window size scaling factor: 64]
+    Checksum: 0x671d [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 621268584, TSecr 2061985848
+    [SEQ/ACK analysis]
+    [Timestamps]
+    TCP payload (514 bytes)
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n]
+            [GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /wireshark-labs/HTTP-wireshark-file1.html
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: en-US,en;q=0.9,ru;q=0.8,uk;q=0.7\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]
+    [HTTP request 1/2]
+    [Response in frame: 37]
+    [Next request in frame: 39]
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 1.729192       128.119.245.12        192.168.0.165         HTTP     551    HTTP/1.1 200 OK  (text/html)
+
+Frame 37: 551 bytes on wire (4408 bits), 551 bytes captured (4408 bits) on interface en0, id 0
+Ethernet II, Src: TendaTec_4a:c7:70 (04:95:e6:4a:c7:70), Dst: Apple_2b:95:95 (f8:ff:c2:2b:95:95)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.0.165
+Transmission Control Protocol, Src Port: 80, Dst Port: 51112, Seq: 1, Ack: 515, Len: 485
+    Source Port: 80
+    Destination Port: 51112
+    [Stream index: 5]
+    [TCP Segment Len: 485]
+    Sequence number: 1    (relative sequence number)
+    Sequence number (raw): 3647360839
+    [Next sequence number: 486    (relative sequence number)]
+    Acknowledgment number: 515    (relative ack number)
+    Acknowledgment number (raw): 1258044246
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 235
+    [Calculated window size: 30080]
+    [Window size scaling factor: 128]
+    Checksum: 0x0d73 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 2061985978, TSecr 621268584
+    [SEQ/ACK analysis]
+    [Timestamps]
+    TCP payload (485 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+            [HTTP/1.1 200 OK\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Sun, 31 May 2020 21:10:26 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.6 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    Last-Modified: Sun, 31 May 2020 05:59:02 GMT\r\n
+    ETag: "80-5a6eb60074c2d"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 128\r\n
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.130451000 seconds]
+    [Request in frame: 33]
+    [Next request in frame: 39]
+    [Next response in frame: 60]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]
+    File Data: 128 bytes
+Line-based text data: text/html (4 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 1.874141       192.168.0.165         128.119.245.12        HTTP     529    GET /favicon.ico HTTP/1.1 
+
+Frame 39: 529 bytes on wire (4232 bits), 529 bytes captured (4232 bits) on interface en0, id 0
+Ethernet II, Src: Apple_2b:95:95 (f8:ff:c2:2b:95:95), Dst: TendaTec_4a:c7:70 (04:95:e6:4a:c7:70)
+Internet Protocol Version 4, Src: 192.168.0.165, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51112, Dst Port: 80, Seq: 515, Ack: 486, Len: 463
+    Source Port: 51112
+    Destination Port: 80
+    [Stream index: 5]
+    [TCP Segment Len: 463]
+    Sequence number: 515    (relative sequence number)
+    Sequence number (raw): 1258044246
+    [Next sequence number: 978    (relative sequence number)]
+    Acknowledgment number: 486    (relative ack number)
+    Acknowledgment number (raw): 3647361324
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 2051
+    [Calculated window size: 131264]
+    [Window size scaling factor: 64]
+    Checksum: 0xac61 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 621268858, TSecr 2061985978
+    [SEQ/ACK analysis]
+    [Timestamps]
+    TCP payload (463 bytes)
+Hypertext Transfer Protocol
+    GET /favicon.ico HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /favicon.ico HTTP/1.1\r\n]
+            [GET /favicon.ico HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /favicon.ico
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: en-US,en;q=0.9,ru;q=0.8,uk;q=0.7\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/favicon.ico]
+    [HTTP request 2/2]
+    [Prev request in frame: 33]
+    [Response in frame: 60]
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 1.996377       128.119.245.12        192.168.0.165         HTTP     549    HTTP/1.1 404 Not Found  (text/html)
+
+Frame 60: 549 bytes on wire (4392 bits), 549 bytes captured (4392 bits) on interface en0, id 0
+Ethernet II, Src: TendaTec_4a:c7:70 (04:95:e6:4a:c7:70), Dst: Apple_2b:95:95 (f8:ff:c2:2b:95:95)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.0.165
+Transmission Control Protocol, Src Port: 80, Dst Port: 51112, Seq: 486, Ack: 978, Len: 483
+    Source Port: 80
+    Destination Port: 51112
+    [Stream index: 5]
+    [TCP Segment Len: 483]
+    Sequence number: 486    (relative sequence number)
+    Sequence number (raw): 3647361324
+    [Next sequence number: 969    (relative sequence number)]
+    Acknowledgment number: 978    (relative ack number)
+    Acknowledgment number (raw): 1258044709
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 243
+    [Calculated window size: 31104]
+    [Window size scaling factor: 128]
+    Checksum: 0xc565 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 2061986247, TSecr 621268858
+    [SEQ/ACK analysis]
+    [Timestamps]
+    TCP payload (483 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 404 Not Found\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 404 Not Found\r\n]
+            [HTTP/1.1 404 Not Found\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Response Version: HTTP/1.1
+        Status Code: 404
+        [Status Code Description: Not Found]
+        Response Phrase: Not Found
+    Date: Sun, 31 May 2020 21:10:27 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.6 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    Content-Length: 209\r\n
+    Keep-Alive: timeout=5, max=99\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=iso-8859-1\r\n
+    \r\n
+    [HTTP response 2/2]
+    [Time since request: 0.122236000 seconds]
+    [Prev request in frame: 33]
+    [Prev response in frame: 37]
+    [Request in frame: 39]
+    [Request URI: http://gaia.cs.umass.edu/favicon.ico]
+    File Data: 209 bytes
+Line-based text data: text/html (7 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+    583 31.078183      192.168.0.165         128.119.245.12        HTTP     665    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1 
+
+Frame 583: 665 bytes on wire (5320 bits), 665 bytes captured (5320 bits) on interface en0, id 0
+Ethernet II, Src: Apple_2b:95:95 (f8:ff:c2:2b:95:95), Dst: TendaTec_4a:c7:70 (04:95:e6:4a:c7:70)
+Internet Protocol Version 4, Src: 192.168.0.165, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51235, Dst Port: 80, Seq: 1, Ack: 1, Len: 599
+    Source Port: 51235
+    Destination Port: 80
+    [Stream index: 100]
+    [TCP Segment Len: 599]
+    Sequence number: 1    (relative sequence number)
+    Sequence number (raw): 2997992308
+    [Next sequence number: 600    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Acknowledgment number (raw): 4058634570
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 2058
+    [Calculated window size: 131712]
+    [Window size scaling factor: 64]
+    Checksum: 0x4a1f [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 621297880, TSecr 2062015328
+    [SEQ/ACK analysis]
+    [Timestamps]
+    TCP payload (599 bytes)
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n]
+            [GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /wireshark-labs/HTTP-wireshark-file1.html
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: en-US,en;q=0.9,ru;q=0.8,uk;q=0.7\r\n
+    If-None-Match: "80-5a6eb60074c2d"\r\n
+    If-Modified-Since: Sun, 31 May 2020 05:59:02 GMT\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]
+    [HTTP request 1/1]
+    [Response in frame: 585]
+
+No.     Time           Source                Destination           Protocol Length Info
+    585 31.211932      128.119.245.12        192.168.0.165         HTTP     304    HTTP/1.1 304 Not Modified 
+
+Frame 585: 304 bytes on wire (2432 bits), 304 bytes captured (2432 bits) on interface en0, id 0
+Ethernet II, Src: TendaTec_4a:c7:70 (04:95:e6:4a:c7:70), Dst: Apple_2b:95:95 (f8:ff:c2:2b:95:95)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.0.165
+Transmission Control Protocol, Src Port: 80, Dst Port: 51235, Seq: 1, Ack: 600, Len: 238
+    Source Port: 80
+    Destination Port: 51235
+    [Stream index: 100]
+    [TCP Segment Len: 238]
+    Sequence number: 1    (relative sequence number)
+    Sequence number (raw): 4058634570
+    [Next sequence number: 239    (relative sequence number)]
+    Acknowledgment number: 600    (relative ack number)
+    Acknowledgment number (raw): 2997992907
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 236
+    [Calculated window size: 30208]
+    [Window size scaling factor: 128]
+    Checksum: 0x086b [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 2062015463, TSecr 621297880
+    [SEQ/ACK analysis]
+    [Timestamps]
+    TCP payload (238 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 304 Not Modified\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 304 Not Modified\r\n]
+            [HTTP/1.1 304 Not Modified\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Response Version: HTTP/1.1
+        Status Code: 304
+        [Status Code Description: Not Modified]
+        Response Phrase: Not Modified
+    Date: Sun, 31 May 2020 21:10:56 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.6 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    Connection: Keep-Alive\r\n
+    Keep-Alive: timeout=5, max=100\r\n
+    ETag: "80-5a6eb60074c2d"\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.133749000 seconds]
+    [Request in frame: 583]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]

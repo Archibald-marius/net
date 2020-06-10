@@ -1,0 +1,127 @@
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.011858       192.168.0.165         17.253.55.212         HTTP     361    GET /ocsp-devid01/ME4wTKADAgEAMEUwQzBBMAkGBSsOAwIaBQAEFDOB0e%2FbaLCFIU0u76%2BMSmlkPCpsBBRXF%2B2iz9x8mKEQ4Py%2Bhy0s8uMXVAIISBs96vlbXjI%3D HTTP/1.1 
+
+Frame 5: 361 bytes on wire (2888 bits), 361 bytes captured (2888 bits) on interface en0, id 0
+Ethernet II, Src: Apple_2b:95:95 (f8:ff:c2:2b:95:95), Dst: TendaTec_4a:c7:70 (04:95:e6:4a:c7:70)
+Internet Protocol Version 4, Src: 192.168.0.165, Dst: 17.253.55.212
+Transmission Control Protocol, Src Port: 49731, Dst Port: 80, Seq: 1, Ack: 1, Len: 295
+Hypertext Transfer Protocol
+    GET /ocsp-devid01/ME4wTKADAgEAMEUwQzBBMAkGBSsOAwIaBQAEFDOB0e%2FbaLCFIU0u76%2BMSmlkPCpsBBRXF%2B2iz9x8mKEQ4Py%2Bhy0s8uMXVAIISBs96vlbXjI%3D HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /ocsp-devid01/ME4wTKADAgEAMEUwQzBBMAkGBSsOAwIaBQAEFDOB0e%2FbaLCFIU0u76%2BMSmlkPCpsBBRXF%2B2iz9x8mKEQ4Py%2Bhy0s8uMXVAIISBs96vlbXjI%3D HTTP/1.1\r\n]
+            [GET /ocsp-devid01/ME4wTKADAgEAMEUwQzBBMAkGBSsOAwIaBQAEFDOB0e%2FbaLCFIU0u76%2BMSmlkPCpsBBRXF%2B2iz9x8mKEQ4Py%2Bhy0s8uMXVAIISBs96vlbXjI%3D HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /ocsp-devid01/ME4wTKADAgEAMEUwQzBBMAkGBSsOAwIaBQAEFDOB0e%2FbaLCFIU0u76%2BMSmlkPCpsBBRXF%2B2iz9x8mKEQ4Py%2Bhy0s8uMXVAIISBs96vlbXjI%3D
+        Request Version: HTTP/1.1
+    Host: ocsp.apple.com\r\n
+    Accept: */*\r\n
+    Accept-Language: ru\r\n
+    Connection: keep-alive\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    User-Agent: com.apple.trustd/2.0\r\n
+    \r\n
+    [Full request URI: http://ocsp.apple.com/ocsp-devid01/ME4wTKADAgEAMEUwQzBBMAkGBSsOAwIaBQAEFDOB0e%2FbaLCFIU0u76%2BMSmlkPCpsBBRXF%2B2iz9x8mKEQ4Py%2Bhy0s8uMXVAIISBs96vlbXjI%3D]
+    [HTTP request 1/1]
+    [Response in frame: 14]
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.046703       17.253.55.212         192.168.0.165         OCSP     422    Response
+
+Frame 14: 422 bytes on wire (3376 bits), 422 bytes captured (3376 bits) on interface en0, id 0
+Ethernet II, Src: TendaTec_4a:c7:70 (04:95:e6:4a:c7:70), Dst: Apple_2b:95:95 (f8:ff:c2:2b:95:95)
+Internet Protocol Version 4, Src: 17.253.55.212, Dst: 192.168.0.165
+Transmission Control Protocol, Src Port: 80, Dst Port: 49731, Seq: 2897, Ack: 296, Len: 356
+[3 Reassembled TCP Segments (3252 bytes): #12(1448), #13(1448), #14(356)]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+            [HTTP/1.1 200 OK\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Server: ATS/8.0.7\r\n
+    Date: Sun, 31 May 2020 20:45:36 GMT\r\n
+    Content-Type: application/ocsp-response\r\n
+    Content-Length: 2487\r\n
+    Expires: Sun, 31 May 2020 20:50:36 GMT\r\n
+    ETag: "86c014ea5db683bb4d3eb6410920c071d23926d7"\r\n
+    Last-Modified: Sun, 31 May 2020 20:45:36 GMT\r\n
+    Cache-Control: max-age=180,public,no-transform,must-revalidate\r\n
+    Age: 127\r\n
+     [truncated]Via: http/1.1 uklon5-vp-vst-008.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 uklon5-vp-vfe-015.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 defra1-edge-lx-011.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 defr
+    CDNUUID: d24e0389-b129-45d4-81ed-05d0400abff5-602065218\r\n
+    X-Cache: hit-stale, hit-fresh, hit-stale, hit-fresh\r\n
+    Connection: keep-alive\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.034845000 seconds]
+    [Request in frame: 5]
+    [Request URI: http://ocsp.apple.com/ocsp-devid01/ME4wTKADAgEAMEUwQzBBMAkGBSsOAwIaBQAEFDOB0e%2FbaLCFIU0u76%2BMSmlkPCpsBBRXF%2B2iz9x8mKEQ4Py%2Bhy0s8uMXVAIISBs96vlbXjI%3D]
+    File Data: 2487 bytes
+Online Certificate Status Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    285 3.951240       192.168.0.165         128.119.245.12        HTTP     554    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1 
+
+Frame 285: 554 bytes on wire (4432 bits), 554 bytes captured (4432 bits) on interface en0, id 0
+Ethernet II, Src: Apple_2b:95:95 (f8:ff:c2:2b:95:95), Dst: TendaTec_4a:c7:70 (04:95:e6:4a:c7:70)
+Internet Protocol Version 4, Src: 192.168.0.165, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 49733, Dst Port: 80, Seq: 1, Ack: 1, Len: 488
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n]
+            [GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /wireshark-labs/HTTP-wireshark-file1.html
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: en-US,en;q=0.9,ru;q=0.8,uk;q=0.7\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]
+    [HTTP request 1/1]
+    [Response in frame: 287]
+
+No.     Time           Source                Destination           Protocol Length Info
+    287 4.076511       128.119.245.12        192.168.0.165         HTTP     551    HTTP/1.1 200 OK  (text/html)
+
+Frame 287: 551 bytes on wire (4408 bits), 551 bytes captured (4408 bits) on interface en0, id 0
+Ethernet II, Src: TendaTec_4a:c7:70 (04:95:e6:4a:c7:70), Dst: Apple_2b:95:95 (f8:ff:c2:2b:95:95)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.0.165
+Transmission Control Protocol, Src Port: 80, Dst Port: 49733, Seq: 1, Ack: 489, Len: 485
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+            [HTTP/1.1 200 OK\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Sun, 31 May 2020 20:47:47 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.6 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    Last-Modified: Sun, 31 May 2020 05:59:02 GMT\r\n
+    ETag: "80-5a6eb60074c2d"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 128\r\n
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.125271000 seconds]
+    [Request in frame: 285]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]
+    File Data: 128 bytes
+Line-based text data: text/html (4 lines)
